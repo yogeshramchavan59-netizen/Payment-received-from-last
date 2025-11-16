@@ -1,0 +1,24 @@
+{
+  "name": "pay-download-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1360.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.11.0",
+    "sequelize": "^6.32.1",
+    "razorpay": "^2.11.0",
+    "express-rate-limit": "^6.8.0"
+  }
+}
